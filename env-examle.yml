@@ -1,0 +1,5 @@
+db_login: login
+db_password: pass
+db_host: localhost
+db_port: 3306
+db_name: table-name
