@@ -21,7 +21,7 @@
 - InfoByCode - получение одной записи по Code (GET /element/{element_code:[a-zA-Z-_0-9]+}/info/)
 - List - достаем елементы по фильтру (POST /element/list/). По умолчанию 100 записей, если limit не задан
     
-    Тело запроса
+    Тело запроса:
     ```
     {
 	    "filter": {
@@ -42,7 +42,7 @@
 - InfoByCode - получение одной записи по Code (GET /section/{section_code:[a-zA-Z-_0-9]+}/info/)
 - List - достаем елементы по фильтру (POST /section/list/). По умолчанию 100 записей, если limit не задан
     
-    Тело запроса
+    Тело запроса:
     ```
     {
 	    "filter": {
