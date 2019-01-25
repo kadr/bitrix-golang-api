@@ -20,6 +20,7 @@
 - InfoByID - получение одной записи по ID (GET /element/{element_id:[0-9]+}/info/)
 - InfoByCode - получение одной записи по Code (GET /element/{element_code:[a-zA-Z-_0-9]+}/info/)
 - List - достаем елементы по фильтру (POST /element/list/). По умолчанию 100 записей, если limit не задан
+    
     Тело запроса
     ```
     {
@@ -40,6 +41,7 @@
 - InfoByID - получение одной записи по ID (GET /section/{section_id:[0-9]+}/info/)
 - InfoByCode - получение одной записи по Code (GET /section/{section_code:[a-zA-Z-_0-9]+}/info/)
 - List - достаем елементы по фильтру (POST /section/list/). По умолчанию 100 записей, если limit не задан
+    
     Тело запроса
     ```
     {
